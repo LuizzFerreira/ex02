@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fafafa;
+}
+.nav-mae{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 18px;
+}
+.logo > img{
+    height: 37px;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 65px;
+}
+.menu > li > .cor-1{
+    color: #7b5cdc;
+}
+.menu > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.menu > li > a:hover{
+    color: #7b5cdc;
+}
+.menu > li > a > i{
+    box-sizing: border-box;
+}
+.botao-1 > a{
+    padding: 10px 27px 10px 27px;
+    border: none;
+    background-color: #7b5cdc;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.botao-1 > a:hover{
+    background-color: #feaa2d;
+    padding: 10px 27px 10px 27px;
+    transition: 0.3s;
+    margin: 4px 11px 0px 0px;
+    color: black;
+    font-size: 18px;
+}
+.conteudo-1{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.Welcome{
+    background-color: #e7e7e7;
+    display: block;
+    width: 170px;
+    padding: 8px;
+    border-radius: 7px;
+}
+.welcome-to-analyx{
+    display: flex;
+    justify-content: center;
+}
+.Welcome > p{
+    font-size: 20px;
+}
+
+.quadrado-roxo{
+    background-color: #7b5cdc;
+    border-radius: 7px;
+    margin-right: 40px;
+    padding: 20px;
+}
+.space::before{
+    background-color: #e7e7e7;
+    position: absolute;
+    content: '';
+    height: 3.4px;
+    width: 35px;
+    margin-left: -30px;
+    border-radius: 5px;
+    margin-top: 17px;
+    display: block;
+}
+
+.space > div{
+    background-color: #e7e7e7;
+    size: 3px;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.cor{
+    color: #7b5cdc;
+}
+
+.conteudo-1 > .sub-texto > p{
+    color: rgba(88, 88, 88, 0.767);
+    width: 70%;
+    margin: auto;
+    line-height: 30px;
+    gap: 7px;
+}
+.conteudo-1 > div{
+    margin-top: 16px;
+}
+.botao-2{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.botao-2 > a{
+    background-color: #feaa2d;
+    padding: 20px;
+    border: none;
+    border-radius: 17px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.botao-2 > a:hover{
+    background-color: #7b5cdc;
+    padding: 16px;
+    transition: 0.3s;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.imagem-fundo > img{
+    width: 100%;
+    border-bottom: 2px black;
+}
+.imagem-homem > img{
+    position: absolute;
+    height: 75%;
+}
+.imagem-homem{
+    display: flex;
+    justify-content: center;
+}
+.imagem-seta{
+    position: absolute;
+    margin-left: 60%;
+}
+.imagem-seta > img {
+    height: 150px;
+}
+.imagem-2{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 100px;
+}
+.imagem-2 > img{
+    height: 360px;
+}
+.imagem-followers{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 280px;
+}
+
+.imagens-centro > .imagem-1 > img{
+    display: flex;
+    position: absolute;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-top: 50px;
+    height: 260px;
+}
+
+.sub-texto > p{
+    color: black;
+    font-size: 21px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.clientes{
+    margin-top: 40px;
+}
+.clientes > ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+.clientes > ul > li > a > img{
+    height: 26px;
+    opacity: 50%;
+}
+.clientes > ul > li > a > img:hover{
+    opacity: 100%;
+}
+.over-services{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.titulo-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 36px;
+}
+.sub-titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 21px;
+}
+.sub-titulo > p {
+    color: rgba(88, 88, 88, 0.767);
+}
+.grupo-imagem{
+    margin-top: 100px;
+}
+.grupo-imagem > ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style-type: none;
+}
+.grupo-imagem > ul > li > a > img{
+    border-radius: 22px;
+}
+.imagem-flutuante-1{
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.imagem-flutuante-1 > img{
+    height: 350px;
+    position: absolute;
+    border-radius: 20px;
+    border: solid 1px #7c5cdc83;
+}
+
+
+.imagem-flutuante-2 > img{
+    height: 350px;
+    position: absolute;
+    border-radius: 20px;
+    border: solid 1px #7c5cdc83;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.quadro{
+    content: '';
+    background-color: #f5f5f5;
+    padding: 252px 190px;
+    position: absolute;
+    border: solid 1px #cacacc63;
+    border-radius: 20px;
+}
+
+.quadro-2 > img{
+    border-radius: 20px;
+    position: absolute;
+}
+.quadro-conteudo{
+    margin-top: 390px;
+    margin-left: 40px;
+    position: relative;
+    width: 350px;
+}
+.quadro-conteudo > h4{
+    font-size: 27px;
+}
+.quadro-conteudo > p{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+.quadro-conteudo-2{
+    margin-top: 350px;
+    margin-left: 40px;
+    position: relative;
+    width: 350px;
+}
+.quadro-conteudo-2 > h4{
+    font-size: 27px;
+}
+.quadro-conteudo-2 > p{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+.quadro-conteudo-3{
+    margin-left: 40px;
+    position: relative;
+    width: 350px;
+    margin-top: 35px;
+}
+.quadro-conteudo-3 > h4{
+    font-size: 27px;
+}
+.quadro-conteudo-3 > p{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.575);
+}
+.titulo-inferior{
+    margin-top: 150px;
+}
+.titulo-inferior > ul > li > h2{
+    font-size: 47px;
+}
+.titulo-inferior > ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 74%;
+    margin: auto;
+}
+.titulo-inferior > div > p {
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 30px;
+    color: rgba(88, 88, 88, 0.767);
+    font-size: 20px;
+}
